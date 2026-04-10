@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Name: Nurbatrisyia Aliza binti Alias
+ * Name: Aina Nadhirah
  * Program: SMSK(SE)
  * Course: CSE3023
  * Lab: MP1
@@ -24,10 +24,12 @@ public class InsertProductServlet extends HttpServlet {
 
     private ProductDAO dao;
 
+    @Override
     public void init() {
         dao = new ProductDAO();
     }
 
+    @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse res)
             throws ServletException, IOException {
 

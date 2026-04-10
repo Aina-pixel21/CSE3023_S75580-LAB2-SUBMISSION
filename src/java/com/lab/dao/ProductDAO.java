@@ -5,7 +5,7 @@
 package com.lab.dao;
 
 /**
- * Name: Nurbatrisyia Aliza binti Alias
+ * Name: Aina Nadhirah
  * Program: SMSK(SE)
  * Course: CSE3023
  * Lab: MP1
